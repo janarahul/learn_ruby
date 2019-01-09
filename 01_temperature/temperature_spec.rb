@@ -21,9 +21,6 @@ describe "temperature conversion functions" do
 
   describe "#ftoc" do
 
-    it "converts freezing temperature" do
-      expect(ftoc(32)).to eq(0)
-    end
 
     it "converts boiling temperature" do
       expect(ftoc(212)).to eq(100)
